@@ -1,0 +1,9 @@
+folder_path_train = '/data_14T/Dataset/Training_Data/RGB/Training_data_rgb/'
+batch_size = 256  # Larger batch size for better negative sampling
+num_workers = 4
+tile_size = 256
+num_epochs = 10
+temperature = 0.5
+triplet_weight = 1.0
+learning_rate = 3e-4
+training_loss_file = "training_loss_simclr.csv"
